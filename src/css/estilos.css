@@ -1,0 +1,100 @@
+body{
+    font-family: "Poppins", sans-serif;
+    ;
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+    height: 95vh;
+}
+
+.header{
+    margin: 50px;
+    padding-left: 20px;
+}
+
+.header .logo img{
+    width: 220px;
+}
+
+.hero {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero img{
+    margin-left: 45px;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -200px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.infos h1{
+    font-weight: 500;
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 22px;
+}
+
+.infos p{
+    color: #fff;
+    font-weight: 200;
+    font-size: 17px;
+    
+}
+
+.infos .btn{
+    position: absolute;
+    width: 200px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    margin-top: 245px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.infos .btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 290px;
+}
+
+.social a{
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: -14px;
+}
+
+.social i{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+.social a i:hover{
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}

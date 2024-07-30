@@ -1,0 +1,28 @@
+@media(max-width: 425px){
+    .hero {
+        flex-direction: column;
+    }
+
+    .header .logo img{
+        width: 170px;
+    }
+
+    .hero img{
+        width: 400px;
+        padding-bottom: 270px;
+    }
+
+    .hero h1{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .hero p{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .infos .btn{
+        margin-top: 290px;
+    }
+}
