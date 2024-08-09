@@ -79,6 +79,14 @@
         height:80px;
 }
 
+
+.icones{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
 .icones li {
     padding: 0 7px;
 }
@@ -94,5 +102,6 @@
     width: 60px;
     height: 60px;
     margin-top: 0;
+    margin-bottom: 80px;
     }   
 }
