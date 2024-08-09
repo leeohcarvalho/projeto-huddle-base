@@ -1,28 +1,98 @@
-@media(max-width: 425px){
+@media(max-width: 1520px) {
+    .icones{
+        margin-right: 50px;
+    }
+}
+
+@media(max-width: 1340px) {
+    .header {
+        margin: 30px;
+        padding-left: 10px;
+    }
+
     .hero {
         flex-direction: column;
     }
 
-    .header .logo img{
-        width: 170px;
+    .hero img {
+        align-items: center;
+        justify-content: center;
     }
 
-    .hero img{
-        width: 400px;
-        padding-bottom: 270px;
+    .infos{
+        align-items: center;
     }
 
-    .hero h1{
-        font-size: 28px;
+    .infos h1 {
+        margin-top: 100px;
         text-align: center;
     }
 
-    .hero p{
+    .infos p{
         text-align: center;
-        font-size: 16px;
     }
 
-    .infos .btn{
-        margin-top: 290px;
+    .social nav .icones{
+        justify-content: center;
+        margin-left: 100px;
     }
+}
+
+@media(max-width: 768px) {
+    body {
+        background: url(../images/bg-mobile.svg) center center no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        background-size: cover;
+    }
+
+    .header {
+        margin: 60px;
+        padding-left: 8px;
+    }
+
+    .header .logo img {
+        width: 260px;
+    }
+
+    .hero img {
+        width: 620px;
+        margin-top: 13px;
+    }
+
+    .infos{
+        margin-left: 0;
+    }
+
+    .infos h1 {
+        font-size: 50px;
+    }
+
+    .infos p {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    .container-btn .btn {
+        margin-top: 49px;
+        width: 370px;
+        height:80px;
+}
+
+.icones li {
+    padding: 0 7px;
+}
+
+.social a {
+    font-size: 25px;
+    padding: 0;
+    
+}
+
+.social i {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-top: 0;
+    }   
 }
