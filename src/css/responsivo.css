@@ -1,107 +1,128 @@
-@media(max-width: 1520px) {
-    .icones{
-        margin-right: 50px;
-    }
-}
-
-@media(max-width: 1340px) {
-    .header {
-        margin: 30px;
-        padding-left: 10px;
-    }
-
-    .hero {
-        flex-direction: column;
+@media(max-width: 1200px) {
+    body {
+        height: 98vh;
     }
 
     .hero img {
-        align-items: center;
-        justify-content: center;
+        width: 700px;
+    }
+
+    .infos h1 {
+        font-size: 34px;
+    }
+}
+
+@media(max-width: 992px){
+    body {
+        height: 95vh;
+    }
+
+    .header .logo img {
+        width: 200px;
+    }
+
+    .hero {
+    padding: 20px;
+    }
+
+    .hero img {
+        width: 600px;
+    }
+
+    .infos{
+        margin-bottom: 50px;
+    }
+
+    .infos h1 {
+        font-size: 22px;
+    }
+
+    .infos p{
+        font-size: 15px;
+    }
+
+    .container-btn .btn {
+        width: 180px;
+        height: 50px;
+    }
+
+    .icones{
+        margin: 0 50px;
+    }
+}
+
+@media (max-width: 850px){
+    body {
+        height: 40vh;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        margin: 50px 70px 50px 150px;
+        padding-left: 20px;
+    }
+
+    .header .logo img {
+        width: 180px;
     }
 
     .infos{
         align-items: center;
     }
 
+    .hero {
+        padding: 20px;
+    }
+
+    .hero img {
+        width: 500px;
+        margin-bottom: 40px;
+    }
+
     .infos h1 {
-        margin-top: 100px;
+        font-size: 34px;
         text-align: center;
     }
 
-    .infos p{
+    .infos p {
+        font-size: 17px;
         text-align: center;
     }
 
-    .social nav .icones{
+    .social .icones{
         justify-content: center;
         margin-left: 100px;
     }
 }
 
-@media(max-width: 768px) {
-    body {
-        background: url(../images/bg-mobile.svg) center center no-repeat;
-        background-color: hsl(257, 40%, 49%);
-        background-size: cover;
+@media (max-width: 576px) { 
+    body{
+        height: 40vh;
     }
 
     .header {
-        margin: 60px;
-        padding-left: 8px;
-    }
-
-    .header .logo img {
-        width: 260px;
+        margin: 50px 70px 50px 20px;
     }
 
     .hero img {
-        width: 620px;
-        margin-top: 13px;
-    }
-
-    .infos{
-        margin-left: 0;
-    }
-
-    .infos h1 {
-        font-size: 50px;
+        width: 470px;
+        margin-bottom: 30px;
     }
 
     .infos p {
         font-weight: 300;
-        font-size: 30px;
-        line-height: 48px;
     }
 
     .container-btn .btn {
-        margin-top: 49px;
-        width: 370px;
-        height:80px;
-}
+        width: 290px;
+        height: 50px;
+    }
 
-
-.icones{
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-.icones li {
-    padding: 0 7px;
-}
-
-.social a {
-    font-size: 25px;
-    padding: 0;
-    
-}
-
-.social i {
-    display: flex;
-    width: 60px;
-    height: 60px;
-    margin-top: 0;
-    margin-bottom: 80px;
-    }   
+    .icones{
+        margin-top: -30px;
+    }
 }
