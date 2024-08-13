@@ -96,6 +96,10 @@
         text-align: center;
     }
 
+    .icones{
+        margin-top: -40px;
+    }
+
     .social .icones{
         justify-content: center;
         margin-left: 100px;
@@ -134,8 +138,8 @@
 
 @media (max-width: 485px) {
     body{
-        padding: 20px 0 20px 0;
         height: 10vh;
+        overflow: hidden;
     }
 
     .header .logo img {
@@ -145,11 +149,12 @@
     }
 
     .hero{
-        padding-top: 1px;
+        padding-top: 10px;
+        margin-top: -40px;
     }
 
     .hero img {
-        width: 380px;
+        width: 370px;
         margin-bottom: 31px;
     }
 
@@ -160,12 +165,12 @@
 
     .infos h1 {
         padding: 0 20px 26px 20px;
-        font-size: 33px;
+        font-size: 28px;
     }
 
     .infos p {
         font-weight: 200;
-
+        font-size: 15px;
     }
     
     .container-btn .btn {
