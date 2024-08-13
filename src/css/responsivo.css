@@ -126,3 +126,57 @@
         margin-top: -30px;
     }
 }
+
+@media (max-width: 375px) {
+    body{
+        height: 30vh;
+    }
+
+    .header .logo img {
+        width: 150px;
+    }
+
+    .hero{
+        padding-top: 1px;
+    }
+
+    .hero img {
+        width: 340px;
+        margin-bottom: 30px;
+    }
+
+    .infos {
+        margin-left: 0;
+        letter-spacing: 0;
+    }
+
+    .infos h1 {
+        font-size: 26px;
+    }
+
+    .infos p {
+        font-weight: 200;
+        font-size: 16px;
+    }
+    
+    .container-btn .btn {
+        width: 240px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .icones{
+        margin-right: 100px;
+    }
+
+    .social i {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social a {
+        font-size: 15px;
+    }
+
+    
+}
