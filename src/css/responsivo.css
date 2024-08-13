@@ -22,7 +22,7 @@
     }
 
     .hero {
-    padding: 20px;
+        padding: 20px;
     }
 
     .hero img {
@@ -30,6 +30,7 @@
     }
 
     .infos{
+        margin-left: 0px;
         margin-bottom: 50px;
     }
 
@@ -47,13 +48,15 @@
     }
 
     .icones{
-        margin: 0 50px;
+        margin-right: 100px;
     }
 }
 
 @media (max-width: 850px){
     body {
-        height: 40vh;
+        background: url("../images/bg-mobile.svg") center 0 no-repeat;
+        background-size: cover;
+        background-color: hsl(257, 40%, 49%);
     }
 
     .hero {
@@ -101,7 +104,9 @@
 
 @media (max-width: 576px) { 
     body{
-        height: 40vh;
+        background: url("../images/bg-mobile.svg") center 0 no-repeat;
+        background-size: cover;
+        background-color: hsl(257, 40%, 49%);
     }
 
     .header {
@@ -127,13 +132,16 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 485px) {
     body{
-        height: 30vh;
+        padding: 20px 0 20px 0;
+        height: 10vh;
     }
 
     .header .logo img {
         width: 150px;
+        margin-left: 10px;
+        margin-top: -20px;
     }
 
     .hero{
@@ -141,8 +149,8 @@
     }
 
     .hero img {
-        width: 340px;
-        margin-bottom: 30px;
+        width: 380px;
+        margin-bottom: 31px;
     }
 
     .infos {
@@ -151,12 +159,13 @@
     }
 
     .infos h1 {
-        font-size: 26px;
+        padding: 0 20px 26px 20px;
+        font-size: 33px;
     }
 
     .infos p {
         font-weight: 200;
-        font-size: 16px;
+
     }
     
     .container-btn .btn {
@@ -167,6 +176,7 @@
 
     .icones{
         margin-right: 100px;
+        margin-top: -50px;
     }
 
     .social i {
